@@ -1,0 +1,55 @@
+* {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#admin {
+    width: 50%;
+    margin: 150px auto;
+    text-align: center;
+    border-radius: 15%;
+    background: no-repeat;
+    
+
+}
+
+
+body {
+    background-image: url(../4.jpg);
+    background-position: center;
+}
+
+::placeholder {
+    color: black;
+}
+
+input {
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color:white;
+    border: 2px solid;
+}
+
+input:hover {
+    color: black;
+    background-color:yellow;
+    cursor: pointer;
+}
+
+#admin h1 {
+    font-size: 50px;
+    margin: 20px auto;
+    color: black;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 25px;
+}
+
+#admin img {
+    width: 200px;
+}
